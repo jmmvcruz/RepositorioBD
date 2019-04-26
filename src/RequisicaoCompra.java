@@ -7,7 +7,7 @@ public class RequisicaoCompra {
     private Livro livro;
     private Utilizador utilizador;
 
-    public RequisicaoCompra(LocalDate data, String estado, String oficio, Livro livro, Utilizador utilizador) {
+    public RequisicaoCompra( String estado,LocalDate data, String oficio, Livro livro, Utilizador utilizador) {
         this.data = data;
         this.estado = estado;
         this.oficio = oficio;

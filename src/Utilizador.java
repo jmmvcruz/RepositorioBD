@@ -5,10 +5,10 @@ public class Utilizador {
 
 
 
-    public Utilizador(String nome, String estado) {
+    public Utilizador(String nome, String estado, TipoUtilizador uti) {
         this.nome = nome;
         this.estado = estado;
-
+        this.tipo= uti;
 
     }
 

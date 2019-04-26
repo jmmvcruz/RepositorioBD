@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Ficha3_jar</output-path>
     <root id="archive" name="Ficha3.jar">
       <element id="module-output" name="Ficha3" />
-      <element id="file-copy" path="$USER_HOME$/Downloads/Implementacao.pdf" />
+      <element id="file-copy" path="$PROJECT_DIR$/resources/Implementacao.pdf" />
     </root>
   </artifact>
 </component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fficha3">
+    <output-path>$PROJECT_DIR$/out/artifacts/fficha3</output-path>
+    <root id="archive" name="fficha3.jar">
+      <element id="artifact" artifact-name="Ficha3:jar" />
+    </root>
+  </artifact>
+</component>

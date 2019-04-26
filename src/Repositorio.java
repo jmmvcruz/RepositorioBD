@@ -1,18 +1,31 @@
-import java.util.ArrayList;
-
-
 public interface Repositorio {
-     void adicionaPropostaRequisicao(PropostaAquisicao proposta);
-    void adicionaCoima(Coima coima);
-    void adicionaCopia(Copia copia);
-    void adicionaDevolucao(Devolucao devolucao);
-     void adicionaEmprestimo(Emprestimo emprestimo);
-    void adicionaLivro(Livro livro);
-    void adicionaNotificacao(Notificacao notificacao);
-     void adicionaRequisicao(Requisicao requisicao);
-     void adicionaEncomenda(Encomenda encomenda);
-    void adicionaTipoUtilizador(TipoUtilizador tipo);
-     void adicionaEntradaNovoLivro(EntradaNovoLivro entrada);
-     void adicionaRequisicaoCompra (RequisicaoCompra compas);
+
+    public void adicionaPropostaRequisicao(PropostaAquisicao proposta);
+
+    public void adicionaRequisicaoCompra(RequisicaoCompra requisicaoCompra);
+
+    public void adicionaEncomenda(Encomenda encomenda);
+
+    public void adicionaEntradaNovoLivro(EntradaNovoLivro entradaNovoLivro);
+
+    public  void adicionaUtilizador(Utilizador utilizador);
+
+    public  void adicionaTipoUtilizador(TipoUtilizador tipo);
+
+    public  void adicionaRequisicao(Requisicao requisicao);
+
+    public  void adicionaCopia(Copia copia);
+
+    public  void adicionaLivro(Livro livro);
+
+    public  void adicionaEmprestimo(Emprestimo emprestimo);
+
+    public  void adicionaNotificacao(Notificacao notificacao);
+
+    public  void adicionaDevolucao(Devolucao devolucao);
+
+    public  void adicionaCoima(Coima coima);
+
+    public  Emprestimo devolveEmprestimoDaRequisicao(Requisicao r);
 
 }

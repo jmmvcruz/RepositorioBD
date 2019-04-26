@@ -9,8 +9,7 @@ public class Main {
         RequisicaoCompra requisicaoCompra = new RequisicaoCompra("pendente", LocalDate.now(), "Oficio",l,u);
         Encomenda encomenda = new Encomenda(LocalDate.now(),requisicaoCompra);
         EntradaNovoLivro entradaNovoLivro = new EntradaNovoLivro(LocalDate.now(),encomenda,c);
-        Repositorio repo = new RepositorioMem();
-        repo.adicionaEntradaNovoLivro(entradaNovoLivro);
+
     }
 
 }
